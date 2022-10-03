@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website - Login </title>
+    <link rel="stylesheet"  href="CSS/styles.css" />      
+    
+</head>
+
+<body> 
+
+<div class="text">
+    <h2> Sample Task !!</h2>
+    <p id="content">Welcome to our sample task web page. This page is reference of our learnings and implementation in the Web development. 
+    </p>
+</div>
+
+<div>
+
+  <form id="login" action=" " method="post" >
+
+    <div>
+      <fieldset class="forms">
+            
+            <legend><h1>Sign Up </h1></legend>
+
+            <div class="form-fields">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" ><br><br>
+
+            <label for="uname">User name</label><br>
+            <input type="text" id="uname" name="uname" required> <br><br>
+            <p id="user-err"> Please enter valid user name
+            </p>
+
+            <label for="email">Email id</label><br>
+            <input type="email" id="email" name="email" required placeholder="abc@gmail.com"><br><br>
+
+            <label for="pwd">Password</label><br>
+            <input type="Password" id="pwd" name="pwd"  required> <br><br>
+            <p id="pwd-err"> Please enter valid Password
+            </p>
+
+            <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me 
+            </label>
+
+            <br><button id="gbtn" value="submit" type="submit"><a href="notes.html"  >Get started </a> </button>
+            </div>
+            <br> 
+            
+      </fieldset>
+     </div>
+
+   </form>  
+
+</div>
+<footer><b>  &copy reserved  </b></footer>
+<script src="/JS/loginScript.js"> </script>
+
+</body>
+
+</html>

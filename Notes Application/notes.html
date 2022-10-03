@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App </title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+        
+</head>
+<body>
+
+<div class="notes-heading">
+     <h2 class="heading-text" >Notes </h2>  
+</div> 
+<div class="notesbody">   
+    <div id="sessions"> 
+
+    </div>
+    
+    <button id="add-notes" >Add Notes</button>
+    
+        <div id="modal">
+            <div class="notes-tiles">
+              <span class="close">&times;</span>
+                  <form class="form-notes">
+                        <fieldset id="notes-fields">                    
+                            <br><p>Title</p><br>
+                            <input type="text" id="title-text"  placeholder="Enter your title"><br><br>
+                            <p>Description</p><br>
+                            <textarea type="text" id="description-text" placeholder="Enter your description"></textarea><br><br> 
+                              <button id="notes-btn"> + </button> 
+                  
+                       </fieldset>
+                   </form> 
+            </div> 
+        </div>    
+</div>
+
+<section>
+    <div class="container">
+        <h2>Your Notes</h2>
+        <hr>
+        <div id="notes">
+    
+               
+        </div>
+    </div>
+</section>
+    
+  </div>
+  
+<script src="JS/notesScript.js"> </script>
+
+</body>
+</html>
